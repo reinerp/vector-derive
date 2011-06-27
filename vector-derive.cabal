@@ -1,0 +1,22 @@
+Name:          vector-derive
+Version:       0.0
+Synopsis:      Automatic and customisable boilerplate derivation for Data.Vector.Unboxed
+License:       BSD3
+License-file:  LICENSE
+Author:        Reiner Pope <reiner.pope@gmail.com>
+Maintainer:    Reiner Pope <reiner.pope@gmail.com>
+Stability:     experimental
+Description:   derive-vector
+Category:      Data
+Tested-with:   
+Cabal-Version: >= 1.6
+Build-type:    Simple
+
+Library
+  Exposed-Modules: 
+      Data.Vector.Strict
+      Data.Vector.Unboxed.Derive
+      Data.Vector.Unboxed.Instances
+  Other-Modules:   
+  Extensions:      
+  Build-Depends:   base, vector, template-haskell, text, bytestring, binary

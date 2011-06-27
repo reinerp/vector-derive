@@ -1,0 +1,9 @@
+# emacs tmp files
+*~
+*.o
+*.html
+*.hi
+*.a
+*.p.a
+*.p_hi
+*.p_o
